@@ -1,0 +1,123 @@
+*
+{
+    box-sizing: border-box ;
+}
+
+h1
+{
+    text-align: center;
+    font-family:Verdana;
+    
+}
+
+section
+{
+
+    background-color: darkgray;
+    position: relative;
+    border: 1px solid black ; 
+    
+    font-family: sans-serif;
+       
+}
+lorem
+{
+    width: 35%;  
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+    text-align: center;
+    border:1px solid black ;
+    padding: 5px;
+    font-size:24px;
+    font-weight: bolder;  
+}
+.corner1
+{
+    background-color:#FFB6C1;
+}
+.corner2
+{
+    background-color:#CD5C5C;
+    color: white;
+}
+.corner3
+{
+    background-color:#F5DEB3;
+}
+
+.content 
+{
+    margin: 50px 10px 20px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+                            /*  The mobile  */
+
+@media (max-width:768px)
+{
+
+    section
+    {
+        width:95% ;  
+        margin: 20px  ;
+        
+    }
+}
+
+                            /*   the tablet   */ 
+
+@media (min-width:768px) and (max-width:992px)
+{
+
+    .section1,.section2
+     {
+         display: inline-block;
+         width:46% ;  
+         margin: 20px 10px 15px 10px;
+          
+     }
+    .section3
+    {
+        
+        width: 95%;
+        margin: 10px ;
+    }
+    .corner1,.corner2
+    {
+        width:45%
+    }
+    .corner3
+    {
+        width:22%;
+    }
+
+} 
+
+                                    /*  The Desktop  */
+
+@media (min-width:992px)
+{
+
+    .section1,.section2,.section3
+     {
+        float: left;
+         width:32% ;  
+         margin: 20px 5px 15px 5px;
+          
+     }
+    
+    .section1
+    {
+        margin-left: 10px;
+    }
+    
+    lorem
+    {
+        width: 40%;
+    }
+}
+
