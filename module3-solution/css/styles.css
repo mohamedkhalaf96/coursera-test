@@ -1,36 +1,71 @@
+/** HEADER **/
 h1 {
-
+	font-size: 1.75em;
 	text-align: center;
-
 }
-
-
 
 h2 {
+	font-size: 1.25em; 
+	text-align: center;
+}
 
-	color: gray;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: #999999; /*grey color baackground*/
+    border: 1px solid #000000; /*thin black border*/
+    margin: 0 5% 2.5% 5%; /*bottom margin*/
+    padding: 10px; 
+    width: 90%
+}
+
+section h2 {
+    margin: 2% 40% 2% 40%;
+    width: 20%;
+}
+
+section p {
 
 }
 
 
+/********** Destop **********/
 
-.bodyDiv {
-
-	height: 1000px;
-
-	width: 90%;
-
-	background-color: blue;
-
-	border: solid black 5px;
-
-	margin : 5%;
-    padding: 10px ;
-
+#header-nav {	
+	border-radius:0;
+	border: 0;
 }
 
-#upperNav{
+#nav-list{
+	margin-top: 10px;
+}
 
-	height: 50px;
+#nav-list a {
+	color: #951C49;
+	text-align: center
+}
 
+#nav-list a:hover {
+	color: Blue;
+}
+#header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.card-header {
+	text-align: center;	
+}
+
+.card {
+	background-color: #951C49;
+	color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#dropdown_odd {
+	background-color: #C0C0C0;
 }
